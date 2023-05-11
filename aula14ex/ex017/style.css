@@ -1,24 +1,44 @@
 body {
-    background: rgb(101, 163, 255);
-    color: white;
+    background: rgba(101, 163, 255);
     font: normal 15pt Arial;
 }
 
 header {
+    color: white;
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
 }
 
 section {
     background: white;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
-    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
     margin: auto;
-    padding: 15px;
+    padding: 10px;
     width: 500px;
+}
+div {
+    text-align: justify;
+}
+
+p {
+    text-align: center;
+}
+
+#tabuada {
+    border: none;
+    margin-left: 175px;
+    text-align: center;
+    overflow: hidden;
+}
+
+option {
+    padding: 15px;
 }
 
 footer {
-    font-style: italic;
+    color: white;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+    font-style: italic;
 }
